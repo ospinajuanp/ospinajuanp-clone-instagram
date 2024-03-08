@@ -1,9 +1,12 @@
+import  LowerMenuIcons  from '../container/LowerMenuIcons'
 import './Profile.css'
 
-export default function Profile(  ) {
+function Profile(  ) {
     return (
-        <>
-            
-        </>
+        <div>
+            <LowerMenuIcons/>
+        </div>
     )
 }
+
+export default Profile

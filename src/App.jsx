@@ -1,12 +1,13 @@
+import Profile from './page/Profile'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1>test</h1>
-      <p>hi</p>
-    </>
+    <main className='App'> 
+      <h1>CLON INSTAGRAM</h1>
+      <Profile/>
+    </main>
   )
 }
 
