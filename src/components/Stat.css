@@ -1,0 +1,22 @@
+.Stat{
+    width: 100%;
+    min-width: 266px;
+    height: 88;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0;
+    border-top: 1px dotted #363636;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Stat__item{
+    width: 84px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.Stat__item div:nth-child(2){
+    color: #A8A8A8;
+    font-weight: 100;
+}

@@ -14,9 +14,9 @@ return (
             </li>
             <li className='HighlightedSaved__card'>
                 <div className='HighlightedSaved__card-img'>
-                    <Photo user={'ospinajuanp'}/>
+                    <Photo user={'oficial_mav1'}/>
                 </div>
-                <div className='HighlightedSaved__card-title'>TikToks</div>
+                <div className='HighlightedSaved__card-title'>Preguntas</div>
             </li>
         </ul>
     </div>
