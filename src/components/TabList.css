@@ -1,0 +1,27 @@
+.TabList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 266px;
+    height: 52px;
+    
+}
+.TabList__item{
+    cursor: pointer;
+    width: 33.3vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: .1px dotted #363636;
+}
+/* .TabList__item:nth-child(-n+2) {
+    margin-right: 60px; 
+} */
+
+.TabList__item div svg{
+    width: 24px;
+    height: 24px;
+}
