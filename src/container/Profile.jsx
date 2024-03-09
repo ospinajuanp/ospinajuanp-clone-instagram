@@ -1,3 +1,4 @@
+import HighlightedSaved from "../components/HighlightedSaved"
 import InfoProfile from "../components/InfoProfile"
 import Header from "./../components/Header"
 import './Profile.css'
@@ -7,6 +8,7 @@ function Profile() {
         <div className="Profile">
             <Header/>
             <InfoProfile/>
+            <HighlightedSaved/>
         </div>
     )
 }

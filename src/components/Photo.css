@@ -1,0 +1,14 @@
+.Photo__img{
+    width: 100%;
+    height: 100%;
+    max-width: 77px;
+    max-height: 77px;
+    margin-right: 28px;
+}
+
+.Photo__img img{
+    border: 1px solid #363636;
+    border-radius: 50%;
+    padding: 4px ;
+
+}
