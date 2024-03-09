@@ -1,11 +1,11 @@
 import './Photo.css'
 
-function Photo() {
+function Photo({user}) {
 
 return (
     <div className='Photo'>
         <div className='Photo__img'>
-            <img src="https://unavatar.io/ospinajuanp" alt="ospinajuanp" />
+            <img src={`https://unavatar.io/${user}`}  alt="ospinajuanp" />
         </div>
     </div>
     )

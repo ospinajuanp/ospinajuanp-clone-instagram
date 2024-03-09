@@ -6,7 +6,7 @@ import './Header.css'
 function Header () {
     return (
         <header className='Header'>
-            <Photo/>
+            <Photo user={'ospinajuanp'}/>
             <div className="Header__text">
                 <div>ospinajuanp</div>
                 <div className="Header__buttons">
