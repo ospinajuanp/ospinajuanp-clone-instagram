@@ -1,6 +1,6 @@
 .Stat{
-    width: 100%;
-    min-width: 266px;
+    width: 100vw;
+    min-width: 380px;
     height: 88;
     display: flex;
     flex-direction: row;

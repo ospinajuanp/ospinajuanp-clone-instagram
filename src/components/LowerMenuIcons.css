@@ -1,6 +1,7 @@
 .LowerMenuIcons ul{
-    width: 100%;
-    min-width: 266px;
+    background-color: #000;
+    width: 100vw;
+    min-width: 380px;
     height: 48px;
     min-height: 48px;
     border-top: 1px dotted #363636;
@@ -10,7 +11,7 @@
     align-items: center;
     position: fixed;
     bottom: 0px;
-    z-index: 1; 
+    z-index: 100; 
 }
 .LowerMenuIcons ul li {
     display: flex;
