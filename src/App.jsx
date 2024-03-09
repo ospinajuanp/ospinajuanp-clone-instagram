@@ -5,7 +5,7 @@ function App() {
   
   return (
     <main className='App'> 
-      <h1>CLON INSTAGRAM</h1>
+      {/* <h1>CLON INSTAGRAM</h1> */}
       <Profile/>
       
     </main>
