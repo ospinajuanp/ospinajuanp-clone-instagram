@@ -6,17 +6,20 @@
     width: 100%;
     min-width: 266px;
     height: 77px;
-    max-height: 77px;
+    min-height: 77px;
     margin: 16px 16px 24px 16px;
 }
 
 .Header__img{
     width: 77px;
+    min-width: 77px;
     height: 77px;
     margin-right: 28px;
 }
 
 .Header__img-svg{
+    min-width: 77px;
+    min-height: 77px;
     border: 1px solid #000;
     border-radius: 50%;
     padding: 4px ;

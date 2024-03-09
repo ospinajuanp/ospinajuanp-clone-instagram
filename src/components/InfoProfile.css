@@ -27,9 +27,14 @@
 }
 
 .InfoProfile__url{
-    min-width: 25px;
+    font-size: 12px;
+    min-width: 266px;
     max-width: 735px;
 }
 .InfoProfile__url div{
     margin-top: 14px;
+    height: 18px;
+    overflow: hidden; /* Oculta el contenido que excede el tamaño del contenedor */
+    text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) al final del texto truncado */
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
 }
