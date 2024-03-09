@@ -14,7 +14,7 @@ return (
             <div>www.facebook.com/ospinajuanp</div>
         </div>
         <a className='InfoProfile__url'>
-            <div href="/">URL</div>
+            <div href="/">valeriamontoya.02, sara.arangoo, apg_04 y 19 más siguen esta cuenta</div>
         </a>
     </div>
     )

@@ -27,7 +27,8 @@
 }
 
 .InfoProfile__url{
-    width: 25px;
+    min-width: 25px;
+    max-width: 735px;
 }
 .InfoProfile__url div{
     margin-top: 14px;
