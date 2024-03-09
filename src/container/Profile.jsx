@@ -1,9 +1,10 @@
+import Header from "./../components/Header"
 import './Profile.css'
 
 function Profile() {
     return (
         <div className="Profile">
-            <h2> HOLA PERRA</h2>
+            <Header/>
         </div>
     )
 }

@@ -9,7 +9,7 @@
     flex-direction: row;
     align-items: center;
     border-bottom: 1px dotted #363636;
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 1; 
 }
