@@ -1,0 +1,14 @@
+.UserThmbnail__img{
+    width: 100%;
+    height: 100%;
+    max-width: auto;
+    max-height: auto;
+    margin-right: 28px;
+}
+
+.UserThmbnail__img img{
+    border: 1px solid #363636;
+    border-radius: 50%;
+    padding: 2px ;
+
+}
