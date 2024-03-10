@@ -1,13 +1,13 @@
 import { RiArrowDownSLine } from "react-icons/ri";
 import { GoPersonAdd } from "react-icons/go";
-import Photo from "./Photo";
+import UserThmbnail from "./UserThmbnail";
 import './Header.css'
 
 function Header () {
     return (
         <header className='Header'>
             <div className="Header__img">
-                <Photo className="Header__img-svg" user={'ospinajuanp'}/>
+                <UserThmbnail className="Header__img-svg" user={'ospinajuanp'}/>
             </div>
             <div className="Header__text">
                 <div>ospinajuanp</div>

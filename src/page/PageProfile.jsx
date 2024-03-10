@@ -5,7 +5,7 @@ import './PageProfile.css'
 
 function PageProfile(  ) {
     return (
-        <div>
+        <div className='PageProfile'>
             <UpperMenu/>
             <Profile/>
             <LowerMenuIcons/>

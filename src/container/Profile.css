@@ -1,3 +1,13 @@
 .Profile{
+    max-width: 935px;
+    margin: 0 auto;
+}
 
+@media (min-width: 936px) {
+    .Profile{
+        padding: 0 28px;
+        margin-left: calc(48px + max((100% - 935px) / 2, 20px));
+        width: 80%;
+        margin-right: 0;
+    }
 }

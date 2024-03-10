@@ -1,6 +1,7 @@
 .HighlightedSaved{
     width: 100vw;
     min-width: 380px;
+    max-width: 935px;
     height: 88px;
     margin-bottom: 21px;
 }

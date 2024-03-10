@@ -1,7 +1,7 @@
-.LowerMenuIcons ul{
-    background-color: #000;
+.LowerMenuIcons .LowerMenuIcons__navigator{
     width: 100vw;
     min-width: 380px;
+    max-width: 935px;
     height: 48px;
     min-height: 48px;
     border-top: 1px dotted #363636;
@@ -13,14 +13,30 @@
     bottom: 0px;
     z-index: 100; 
 }
-.LowerMenuIcons ul li {
+.LowerMenuIcons .LowerMenuIcons__navigator{
+    background-color: #000;
+    width: 100vw;
+    min-width: 380px;
+    max-width: 935px;
+    height: 48px;
+    min-height: 48px;
+    border-top: 1px dotted #363636;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100; 
+}
+.LowerMenuIcons .LowerMenuIcons__navigator li {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 48px;
     height: 48px;
 }
-.LowerMenuIcons ul li a{
+.LowerMenuIcons .LowerMenuIcons__navigator li a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +45,11 @@
     cursor: pointer;
     transition: 0.3s;
 }
-.LowerMenuIcons ul li a:hover{
+.LowerMenuIcons .LowerMenuIcons__navigator li a:hover{
     transform: scale(1.2);
     transition: 0.3s;
 }
-.LowerMenuIcons ul li svg{
+.LowerMenuIcons .LowerMenuIcons__navigator li svg{
     width: 28px;
     height: 28px;
     color: 'white'
@@ -42,4 +58,40 @@
     width: 48px;
     padding: 12px;
     border-radius: 50%;
+}
+.LowerMenuIcons .LowerMenuIcons__logo .LowerMenuIcons__logoInsta,.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__heart{
+    display: none;
+}
+
+@media (min-width: 936px) {
+    .LowerMenuIcons{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 8px 12px 20px 12px;
+    }
+    .LowerMenuIcons .LowerMenuIcons__navigator{
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        width: 48px;
+        max-width: 48px;
+        min-width: 48px;
+        height: 100vh;
+        padding: 8px 24px 20px 12px;
+        border-right: 1px dotted #363636;
+    }
+    .LowerMenuIcons .LowerMenuIcons__logo .LowerMenuIcons__logoInsta,.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__heart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        width: 48px;
+        max-width: 48px;
+        min-width: 48px;
+        padding: 8px 12px 20px 12px;
+        stroke-width: 1px;
+        
+    }
 }
