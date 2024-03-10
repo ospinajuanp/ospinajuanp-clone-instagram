@@ -1,5 +1,5 @@
 import './HighlightedSaved.css'
-import Photo from './Photo'
+import UserThmbnail from './UserThmbnail'
 
 function HighlightedSaved() {
 
@@ -8,13 +8,13 @@ return (
         <ul className='HighlightedSaved__cards'>
             <li className='HighlightedSaved__card'>
                 <div className='HighlightedSaved__card-img'>
-                    <Photo user={'ospinajuanp'}/>
+                    <UserThmbnail user={'ospinajuanp'}/>
                 </div>
                 <div className='HighlightedSaved__card-title'>TikToks</div>
             </li>
             <li className='HighlightedSaved__card'>
                 <div className='HighlightedSaved__card-img'>
-                    <Photo user={'oficial_mav1'}/>
+                    <UserThmbnail user={'ospinajuanp'}/>
                 </div>
                 <div className='HighlightedSaved__card-title'>Preguntas</div>
             </li>

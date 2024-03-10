@@ -1,0 +1,15 @@
+.PostProfile{
+    display: flex;
+    flex-direction: column;
+}
+
+.PostProfile__row {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 380px;
+    gap: 4px;
+    margin-bottom: 4px;
+}

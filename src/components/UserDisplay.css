@@ -1,0 +1,12 @@
+.UserDisplay{    
+    width: 100%;
+    max-width: 309px;
+    min-height: 100%;
+}
+
+
+.UserDisplay .UserDisplay__img img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}

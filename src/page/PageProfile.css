@@ -1,4 +1,11 @@
 .PageProfile{
-    height: 100vh;
+    min-height: auto;
+    overflow-x: hidden;
 }
 
+@media (max-width: 380px) {
+  .contenedor-principal {
+    overflow-x: auto; /* Opción para mostrar el scroll horizontal automáticamente */
+    /* overflow-x: scroll; */ /* Opción para forzar la aparición del scroll horizontal */
+  }
+}
