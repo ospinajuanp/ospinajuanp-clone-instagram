@@ -22,7 +22,7 @@
     height: 28px;
 }
 
-.UpperMenu h2{
+.UpperMenu a,.UpperMenu h2{
     width: 100%;
     min-width: 32px;
     height: 18px;

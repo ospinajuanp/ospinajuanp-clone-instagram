@@ -20,12 +20,18 @@
 }
 
 .InfoProfile__threads{
+    height: 38px;
+}
+.InfoProfile__threads div{
+    padding: 6px 0;
     width: max-content;
+    height: 26px;
     padding: 4px;
     border-radius: 10px;
     color: white;
     background-color: #363636;
 }
+
 .InfoProfile__web div:nth-child(1){
     display: flex;
     align-items: center;
@@ -46,6 +52,7 @@
     text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) al final del texto truncado */
     white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
 }
-.InfoProfile__url--more{
+
+.InfoProfile__url--more, .InfoProfile__type{
     color: #a8a8a8;
 }

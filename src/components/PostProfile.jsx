@@ -1,12 +1,9 @@
 import './PostProfile.css'
 import UserDisplay from './UserDisplay'
 
-function PostProfile({publications}) {
+function PostProfile({publications, reels=false}) {
 
-    
-    
-
- return (
+return (
     <div className='PostProfile'>
         {
             publications.length >= 0  // Verifica si publications tiene al menos un elemento
@@ -21,7 +18,7 @@ function PostProfile({publications}) {
                         //Crea un div con la clase 'PostProfile__row' y una clave única
                             <div className='PostProfile__row' key={i}>  
                                 {publications.slice(i, i + 3).map((publication, index) => (  // Mapea los elementos de publications en la fila actual
-                                    <UserDisplay key={index} url={publication.picture} />  // Renderiza un componente UserDisplay para cada elemento de la fila
+                                    <UserDisplay key={index} url={publication.picture} reels={reels}/>  // Renderiza un componente UserDisplay para cada elemento de la fila
                                 ))}
                             </div>
                         );

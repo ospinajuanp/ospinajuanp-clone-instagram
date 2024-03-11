@@ -6,10 +6,21 @@ function InfoProfile({name='', type='',description='',url='', follower=[''], thr
 return (
     <div className='InfoProfile'>
         <div>{name}</div>
-        {type != '' ? <div>{type}</div>: ''}
+        {
+            threads != '' 
+            ?(
+            <a href={threads} target="_blank" className="InfoProfile__threads">
+                <div>{
+                    threads.split('/')[threads.split('/').length - 1]
+                    }</div>
+            </a>
+            )
+            :''
+        }
+        {type != '' ? <div className="InfoProfile__type">{type}</div>: ''}
         {description != ''
             ?(
-                <div>{
+                <div className="InfoProfile__description">{
                     description.map((item, index) => {
                         return <span key={index}> {item} <br/></span> 
                     })
@@ -29,21 +40,11 @@ return (
             )
             :''
         }
-        {
-            threads != '' 
-            ?(
-            <a href={threads} target="_blank" className="InfoProfile__threads">
-                <div>{
-                    threads.split('/')[threads.split('/').length - 1]
-                    }</div>
-            </a>
-            )
-            :''
-        }
+        
         {
             follower.length != 0
             ?(
-            <a href="#"  className='InfoProfile__url'>
+            <a href="#seguidores"  className='InfoProfile__url'>
                 <div >{
                         follower.length <= 3 
                             ? <span>{follower.join(', ')}</span>

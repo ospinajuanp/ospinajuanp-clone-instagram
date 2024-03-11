@@ -5,7 +5,9 @@ function UpperMenu(  ) {
     return (
         <div className="UpperMenu">
             <MdKeyboardArrowLeft/>
-            <h2>ospinajuanp</h2>
+            <a href="/">
+                <h2>ospinajuanp</h2>
+            </a>
         </div>
     )
 }

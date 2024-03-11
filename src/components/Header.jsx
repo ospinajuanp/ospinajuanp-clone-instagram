@@ -7,7 +7,7 @@ function Header ({data}) {
     return (
         <header className='Header'>
             <div className="Header__img">
-                <UserThmbnail className="Header__img-svg" url={`https://unavatar.io/${data.username}`}/>
+                <UserThmbnail className="Header__img-svg" url={data.picture}/>
             </div>
             <div className="Header__text">
                 <div>{data.username}</div>

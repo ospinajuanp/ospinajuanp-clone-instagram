@@ -10,28 +10,28 @@ function TabList({publications,reels,tag}) {
 return (
     <div>
         <div className='TabList-select'>
-            <div style={{borderColor: activeTab === 0 ? '#fff' : '#363636', borderStyle: activeTab === 0 ? 'solid': 'dotted'}} className="TabList-select__item" onClick={() => setActiveTab(0)}>
+            <a href="/#publicaciones" style={{borderColor: activeTab === 0 ? '#fff' : '#363636', borderStyle: activeTab === 0 ? 'solid': 'dotted'}} className="TabList-select__item" onClick={() => setActiveTab(0)}>
                 <div>
-                    <FaTableCells/>
+                    <FaTableCells style={{fill: activeTab === 0 ? '#0095F6' : '#A8A8A8'}}/>
                 </div>
-            </div>
-            <div style={{borderColor: activeTab === 1 ? '#fff' : '#363636', borderStyle: activeTab === 1 ? 'solid': 'dotted'}} className="TabList-select__item" onClick={() => setActiveTab(1)}>
+            </a>
+            <a href="/#reels" style={{borderColor: activeTab === 1 ? '#fff' : '#363636', borderStyle: activeTab === 1 ? 'solid': 'dotted'}} className="TabList-select__item" onClick={() => setActiveTab(1)}>
                 <div>
-                    <BiMoviePlay/>
+                    <BiMoviePlay style={{fill: activeTab === 1 ? '#0095F6' : '#A8A8A8'}}/>
                 </div>
-            </div>
-            <div style={{borderColor: activeTab === 2 ? '#fff' : '#363636', borderStyle: activeTab === 2 ? 'solid': 'dotted'}} className="TabList-select__item" onClick={() => setActiveTab(2)}>
+            </a>
+            <a href="/#tag" style={{borderColor: activeTab === 2 ? '#fff' : '#363636', borderStyle: activeTab === 2 ? 'solid': 'dotted'}} className="TabList-select__item" onClick={() => setActiveTab(2)}>
                 <div>
-                    <BsPersonVideo/>
+                    <BsPersonVideo style={{fill: activeTab === 2 ? '#0095F6' : '#A8A8A8'}}/>
                 </div>
-            </div>
+            </a>
         </div>
 
         {
             activeTab === 0 
             ? <div className='TabList-display'><PostProfile publications={publications}/></div>
             : activeTab === 1 
-                ? <div className='TabList-display'><PostProfile publications={reels}/></div>
+                ? <div className='TabList-display'><PostProfile publications={reels} reels={true}/></div>
                 : activeTab === 2 
                     ? <div className='TabList-display'><PostProfile publications={tag}/></div>
                     : ''

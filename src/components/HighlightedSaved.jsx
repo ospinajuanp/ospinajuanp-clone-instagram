@@ -17,12 +17,12 @@ return (
                     )
                 })
             }
-            <li className='HighlightedSaved__card'>
+            {/* <li className='HighlightedSaved__card'>
                         <div className='HighlightedSaved__card-img'>
                             <UserThmbnail/>
                         </div>
                         <div className='HighlightedSaved__card-title'>Nueva</div>
-            </li>
+            </li> */}
 
 
 
