@@ -19,6 +19,7 @@
 .Publication__header-img{
     width: 42px;
     margin-right: 12px;
+    cursor: pointer;
 }
 .Publication__header-text{
     width: 90%;
@@ -41,6 +42,7 @@
     align-items: center;
     justify-content: center;
     transform: rotate(90deg);
+    cursor: pointer;
 }
 .Publication__header-menu svg{
     width: 24px;
