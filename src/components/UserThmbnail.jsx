@@ -1,11 +1,16 @@
+import { CiCirclePlus } from "react-icons/ci";
 import './UserThmbnail.css'
 
-function UserThmbnail({user}) {
+function UserThmbnail({url=''}) {
 
 return (
     <div className='UserThmbnail'>
         <div className='UserThmbnail__img'>
-            <img src={`https://unavatar.io/${user}`}  alt={user} />
+            {
+                url ? <img src={url}  alt='' /> : <CiCirclePlus/>
+            }
+            
+            
         </div>
     </div>
     )

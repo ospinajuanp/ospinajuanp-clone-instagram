@@ -9,7 +9,7 @@
     line-height: 18px;
 }
 .InfoProfile div:nth-child(2){
-    color: rgb(168, 168, 168);
+    color: rgb(224,241,255);
 }
 .InfoProfile div, .InfoProfile a{
     min-height: 18px;
@@ -17,6 +17,14 @@
 .InfoProfile__web {
     display: flex;
     flex-direction: row;
+}
+
+.InfoProfile__threads{
+    width: max-content;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    background-color: #363636;
 }
 .InfoProfile__web div:nth-child(1){
     display: flex;
@@ -37,4 +45,7 @@
     overflow: hidden; /* Oculta el contenido que excede el tamaño del contenedor */
     text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) al final del texto truncado */
     white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+}
+.InfoProfile__url--more{
+    color: #a8a8a8;
 }

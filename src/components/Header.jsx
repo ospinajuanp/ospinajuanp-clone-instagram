@@ -3,14 +3,14 @@ import { GoPersonAdd } from "react-icons/go";
 import UserThmbnail from "./UserThmbnail";
 import './Header.css'
 
-function Header () {
+function Header ({data}) {
     return (
         <header className='Header'>
             <div className="Header__img">
-                <UserThmbnail className="Header__img-svg" user={'ospinajuanp'}/>
+                <UserThmbnail className="Header__img-svg" url={`https://unavatar.io/${data.username}`}/>
             </div>
             <div className="Header__text">
-                <div>ospinajuanp</div>
+                <div>{data.username}</div>
                 <div className="Header__buttons">
                     <button className="Header__follow">
                         <span>Siguiendo</span>

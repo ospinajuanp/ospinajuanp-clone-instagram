@@ -30,4 +30,7 @@
     cursor: pointer;
     white-space: nowrap;
     font-size: 12px;
+    overflow: hidden; /* Oculta el contenido que excede el tamaño del contenedor */
+    text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) al final del texto truncado */
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
 }

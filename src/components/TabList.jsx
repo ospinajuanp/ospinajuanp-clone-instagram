@@ -5,11 +5,8 @@ import './TabList.css'
 import { useState } from "react";
 import PostProfile from "./PostProfile";
 
-function TabList() {
+function TabList({publications,reels,tag}) {
     const [activeTab, setActiveTab] = useState(0);
-
-
-
 return (
     <div>
         <div className='TabList-select'>
@@ -29,9 +26,17 @@ return (
                 </div>
             </div>
         </div>
-        <div className='TabList-display'>
-            <PostProfile/>
-        </div>
+
+        {
+            activeTab === 0 
+            ? <div className='TabList-display'><PostProfile publications={publications}/></div>
+            : activeTab === 1 
+                ? <div className='TabList-display'><PostProfile publications={reels}/></div>
+                : activeTab === 2 
+                    ? <div className='TabList-display'><PostProfile publications={tag}/></div>
+                    : ''
+        }
+        
     </div>
     )
 }
