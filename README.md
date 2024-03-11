@@ -7,7 +7,18 @@
 
 ## Descripción
 
-Este proyecto es un clon de Instagram que busca replicar algunas de las funcionalidades básicas de la popular red social. Actualmente, hemos implementado las páginas de inicio (home) y perfil (profile). La página de inicio incluye la sección de historias y el feed de publicaciones, mientras que la página de perfil permite ver el perfil de usuario y navegar entre publicaciones reels y tag.
+Este proyecto es un clon de Instagram que busca replicar algunas de las funcionalidades básicas de la popular red social. Actualmente, hemos implementado las páginas de inicio (home) y perfil (profile). 
+
+### La página de Home incluye 
+- la sección de historias  
+- la sección de feed de publicaciones
+
+###  La página de Profile incluye 
+- la sección visual de Perfil (foto, username, siguiendo, mensaje)
+- la sección visual de Información (nombre, thread, descripción, url, seguidores)
+- la sección visual de Destacados
+- la sección visual de Estadísticas
+- la sección navegación Publicaciones - Reels - Tag
 
 ## Tecnologías Utilizadas
 
