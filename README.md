@@ -1,10 +1,13 @@
-# README - Proyecto Clon de Instagram
+# Proyecto Clon de Instagram
 
 ¡Bienvenido/a a nuestro proyecto!
 
+![img](./HomeProfile.png)
+
+
 ## Descripción
 
-Este proyecto es un clon de Instagram que busca replicar algunas de las funcionalidades básicas de la popular red social. Actualmente, hemos implementado las páginas de inicio (home) y perfil (profile). La página de inicio incluye la visualización de historias y el feed de publicaciones, mientras que la página de perfil permite ver el perfil de cualquier usuario.
+Este proyecto es un clon de Instagram que busca replicar algunas de las funcionalidades básicas de la popular red social. Actualmente, hemos implementado las páginas de inicio (home) y perfil (profile). La página de inicio incluye la sección de historias y el feed de publicaciones, mientras que la página de perfil permite ver el perfil de usuario y navegar entre publicaciones reels y tag.
 
 ## Tecnologías Utilizadas
 
@@ -46,6 +49,21 @@ El archivo principal del proyecto es `App.jsx`, donde se encuentra la estructura
 3. Realiza un commit de tus cambios (`git commit -am 'Agrega nueva funcionalidad'`).
 4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
 5. Envía un pull request.
+
+## Roadmap
+
+El siguiente es el plan de desarrollo previsto para el proyecto. Por favor, ten en cuenta que estos pasos pueden sufrir cambios a medida que avanzamos en el desarrollo:
+
+1. Generar JSON para alimentar el feed y los perfiles de usuario.
+2. Implementar enrutamiento para una navegación más fluida.
+3. Permitir la navegación al perfil del usuario propio desde cualquier lugar de la aplicación.
+4. Habilitar la navegación desde las publicaciones del feed al perfil del usuario correspondiente.
+5. Facilitar la navegación desde las historias de los usuarios al perfil respectivo.
+6. Optimizar la interfaz para que sea completamente receptiva en pantallas de escritorio para la visualización del perfil.
+7. Mejorar la experiencia de usuario en pantallas de escritorio para una visualización óptima del feed.
+
+Recuerda que estos pasos están sujetos a ajustes y modificaciones a medida que avanza el desarrollo del proyecto.
+
 
 ## Contacto
 

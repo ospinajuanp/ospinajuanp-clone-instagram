@@ -7,6 +7,7 @@ import PostProfile from "./PostProfile";
 
 function TabList({publications,reels,tag}) {
     const [activeTab, setActiveTab] = useState(0);
+    console.log(activeTab)
 return (
     <div>
         <div className='TabList-select'>

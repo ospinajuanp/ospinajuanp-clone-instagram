@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useRef } from 'react';
 import { useEffect } from 'react';
 
-function HighlightedSaved({data}) {
+function HighlightedSaved({data,story=true}) {
     const [scrollIndex, setScrollIndex] = useState(0);
     const [maxScrollIndex, setMaxScrollIndex] = useState(0);
     const scrollAmount = 80; 
@@ -30,7 +30,7 @@ function HighlightedSaved({data}) {
             setScrollIndex(scrollIndex + 1);
         }
     };
-    console.log(scrollIndex)
+    console.log(story)
 return (
     <div className='HighlightedSaved'>
          <ul ref={ulRef} className='HighlightedSaved__cards' style={{ transform: `translateX(-${scrollIndex * scrollAmount}px)` }}>
@@ -55,8 +55,8 @@ return (
 
 
         </ul>
-        
-        <div className='HighlightedSaved__arrow'>
+        {
+            story && (<div className='HighlightedSaved__arrow'>
             {
                 scrollIndex > 0 &&   (
                     <div className='HighlightedSaved__arrow-left' onClick={handleScrollLeft}>
@@ -72,7 +72,9 @@ return (
                 )
             }
                 
-            </div>
+        </div>)
+        }
+        
     </div>
     )
 }
