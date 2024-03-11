@@ -1,13 +1,13 @@
-import PageProfile from './page/PageProfile'
+// import PageProfile from './page/PageProfile'
+import PageHome from './page/PageHome'
 import './App.css'
 
 function App() {
   
   return (
     <main className='App'> 
-      {/* <h1>CLON INSTAGRAM</h1> */}
-      <PageProfile/>
-      
+      {/* <PageProfile/> */}
+      <PageHome/> 
     </main>
   )
 }
