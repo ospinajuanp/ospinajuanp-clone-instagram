@@ -1,0 +1,119 @@
+.Publication {
+    width: 100%;
+    min-width: 380px;
+    max-width: 470px;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Publication__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 12px 4px;
+}
+
+.Publication__header-img{
+    width: 42px;
+    margin-right: 12px;
+}
+.Publication__header-text{
+    width: 90%;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.Publication__header-text-name{
+    display: flex;
+    flex-direction: row;
+}
+.Publication__header-menu{
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+.Publication__header-menu svg{
+    width: 24px;
+    height: 24px;
+}
+.Publication__body{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #262626;
+    border-radius: 4px;
+}
+.Publication__body img{
+    width: 100%;
+    height: 100%;
+    max-height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 4px;
+}
+.Publication__footer{
+    font-size: 14px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #262626;
+    margin-bottom: 20px;
+}
+.Publication__footer-interaction{
+    width: 100%;
+    height: 40px;
+    padding: 4px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Publication__footer-interaction-publication,.Publication__footer-interaction-save{
+    width: 235px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -8px;
+}
+.Publication__footer-interaction-save{
+    width: 40px;
+}
+.Publication__footer-interaction-publication div,.Publication__footer-interaction-save div{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+.Publication__footer-interaction-publication div:hover,.Publication__footer-interaction-save div:hover{
+    color: #A8A8A8;
+}
+.Publication__footer-interaction-publication div svg,.Publication__footer-interaction-save div svg{
+    width: 24px;
+    height: 24px;
+}
+.Publication__footer-description,.Publication__footer-trad,.Publication__footer-comments,.Publication__footer-add-comment{
+    margin-top: 8px;
+}
+.Publication__footer-trad{
+    font-size: 12px;
+}
+.Publication__footer-description{
+    display: flex;
+    flex-direction: row;
+}
+.Publication__footer-description div:nth-child(1) {
+    min-width: fit-content;
+    margin-right: 16px;
+}
+.Publication__footer-description div:nth-child(2) {
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
