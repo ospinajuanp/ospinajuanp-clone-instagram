@@ -427,7 +427,6 @@ function PageProfile(  ) {
     console.log(userProfile)
     return (
         <div className='PageProfile'>
-            <h1>{username}</h1>
             <UpperMenu name={userProfile.username}/>
             <Profile dataTest={userProfile}/>
             <LowerMenuIcons/>

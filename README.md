@@ -107,17 +107,18 @@ En esta sección, documentaré mi progreso y desafíos mientras desarrollo este 
 
 **Fecha: 12/03/2024:**
 - Acabo de conocer el método .toLocaleString('es-ES') no sabia que podia formatiar un texto dependiendo de la region, si se de la hora pero no string lo estoy usando para darle formato a la cantidad de likes
-- Creo el json para alimentar la data de feed
+- Creo el json para alimentar la data de feed y profile
+- Navego entre home a profile por medio de la foto del publicación del feed
 
 ## Roadmap
 
 El siguiente es el plan de desarrollo previsto para el proyecto. Por favor, ten en cuenta que estos pasos pueden sufrir cambios a medida que avanzamos en el desarrollo:
 
 1. Generar JSON para alimentar el feed y los perfiles de usuario. ✔ 
-2. Implementar en rutamiento para una navegación más fluida.
-3. Permitir la navegación al perfil del usuario propio desde cualquier lugar de la aplicación.
-4. Habilitar la navegación desde las publicaciones del feed al perfil del usuario correspondiente.
-5. Facilitar la navegación desde las historias de los usuarios al perfil respectivo.
+2. Implementar en rutamiento para una navegación más fluida. ✔ (Falta definir algunos puntos de navegación)
+3. Permitir la navegación al perfil del usuario propio desde cualquier lugar de la aplicación. ❌(Falta definir algunos puntos de navegación)
+4. Habilitar la navegación desde las publicaciones del feed al perfil del usuario correspondiente.✔
+5. Facilitar la navegación desde las historias de los usuarios al perfil respectivo. ❌
 6. Optimizar la interfaz para que sea completamente receptiva en pantallas de escritorio para la visualización del perfil.
 7. Mejorar la experiencia de usuario en pantallas de escritorio para una visualización óptima del feed.
 

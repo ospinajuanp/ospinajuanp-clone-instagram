@@ -11,9 +11,9 @@ function Publication({data}) {
 return (
     <div className='Publication'>
         <div className='Publication__header'>
-            <div className='Publication__header-img'>
+            <a href={`/profile/${data.username}`} className='Publication__header-img'>
                 <UserThmbnail url={data.url}/>
-            </div>
+            </a>
             <div className='Publication__header-text'>
                 <div className='Publication__header-text-name'>
                     <div>
