@@ -4,8 +4,10 @@ import './UpperMenu.css'
 function UpperMenu( {name} ) {
     return (
         <div className="UpperMenu">
-            <MdKeyboardArrowLeft/>
             <a href="/">
+                <MdKeyboardArrowLeft/>
+            </a>
+            <a href="/profile">
                 <h2>{name}</h2>
             </a>
         </div>

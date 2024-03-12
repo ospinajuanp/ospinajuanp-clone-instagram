@@ -14,7 +14,7 @@ function HighlightedSaved({data,story=true}) {
     useEffect(() => {
         if (ulRef.current) {
             const ulWidth = ulRef.current.offsetWidth;
-            const maxIndex = Math.max(0, Math.ceil(ulWidth / scrollAmount) );
+            const maxIndex = Math.max(0, Math.ceil(ulWidth / 640) );
             setMaxScrollIndex(maxIndex);
         }
     }, [data]);
@@ -30,7 +30,6 @@ function HighlightedSaved({data,story=true}) {
             setScrollIndex(scrollIndex + 1);
         }
     };
-    console.log(story)
 return (
     <div className='HighlightedSaved'>
          <ul ref={ulRef} className='HighlightedSaved__cards' style={{ transform: `translateX(-${scrollIndex * scrollAmount}px)` }}>
