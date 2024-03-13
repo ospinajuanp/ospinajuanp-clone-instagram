@@ -50,7 +50,7 @@ function LowerMenuIcons() {
                         </a>
                     </li>
                     <li>
-                        <a href="/" rel="noopener noreferrer">
+                        <a href="/profile/ospinajuanp" rel="noopener noreferrer">
                             <img className='photoProfile' src="https://unavatar.io/ospinajuanp" alt="ospinajuanp" />
                         </a>
                 </li>

@@ -114,13 +114,10 @@ En esta sección, documentaré mi progreso y desafíos mientras desarrollo este 
 
 El siguiente es el plan de desarrollo previsto para el proyecto. Por favor, ten en cuenta que estos pasos pueden sufrir cambios a medida que avanzamos en el desarrollo:
 
-1. Generar JSON para alimentar el feed y los perfiles de usuario. ✔ 
-2. Implementar en rutamiento para una navegación más fluida. ✔ (Falta definir algunos puntos de navegación)
-3. Permitir la navegación al perfil del usuario propio desde cualquier lugar de la aplicación. ❌(Falta definir algunos puntos de navegación)
-4. Habilitar la navegación desde las publicaciones del feed al perfil del usuario correspondiente.✔
-5. Facilitar la navegación desde las historias de los usuarios al perfil respectivo. ❌
-6. Optimizar la interfaz para que sea completamente receptiva en pantallas de escritorio para la visualización del perfil.
-7. Mejorar la experiencia de usuario en pantallas de escritorio para una visualización óptima del feed.
+1. Habilitar la navegación desde las publicaciones del feed al perfil del usuario correspondiente.✔
+2. Facilitar la navegación desde las historias de los usuarios al perfil respectivo. ❌
+3. Optimizar la interfaz para que sea completamente receptiva en pantallas de escritorio para la visualización del perfil.
+4. Mejorar la experiencia de usuario en pantallas de escritorio para una visualización óptima del feed.
 
 Recuerda que estos pasos están sujetos a ajustes y modificaciones a medida que avanza el desarrollo del proyecto.
 
