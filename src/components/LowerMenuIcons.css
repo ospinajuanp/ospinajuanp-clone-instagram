@@ -58,7 +58,7 @@
     padding: 12px;
     border-radius: 50%;
 }
-.LowerMenuIcons .LowerMenuIcons__logo .LowerMenuIcons__logoInsta,.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__heart{
+.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__logoInsta,.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__heart{
     display: none;
 }
 
@@ -80,7 +80,7 @@
         padding: 8px 24px 20px 12px;
         border-right: 1px dotted #363636;
     }
-    .LowerMenuIcons .LowerMenuIcons__logo .LowerMenuIcons__logoInsta,.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__heart{
+    .LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__logoInsta,.LowerMenuIcons .LowerMenuIcons__navigator .LowerMenuIcons__heart{
         display: flex;
         flex-direction: column;
         justify-content: center;

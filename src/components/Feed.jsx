@@ -9,23 +9,6 @@ function Feed({data}) {
     const [addedPhotoIds, setAddedPhotoIds] = useState(new Set());
 
     const elementos = data
-    // [
-    //     { user: 'Usuario 1', photoId: 1 },
-    //     { user: 'Usuario 2', photoId: 2 },
-    //     { user: 'Usuario 3', photoId: 3 },
-    //     { user: 'Usuario 4', photoId: 4 },
-    //     { user: 'Usuario 5', photoId: 5 },
-    //     { user: 'Usuario 6', photoId: 6 },
-    //     { user: 'Usuario 7', photoId: 7 },
-    //     { user: 'Usuario 8', photoId: 8 },
-    //     { user: 'Usuario 9', photoId: 9 },
-    //     { user: 'Usuario 10', photoId: 10 },
-    //     { user: 'Usuario 10', photoId: 11 },
-    //     { user: 'Usuario 12', photoId: 12 },
-    //     { user: 'Usuario 13', photoId: 13 },
-    //     { user: 'Usuario 14', photoId: 14 },
-    //     { user: 'Usuario 15', photoId: 15 },
-    // ];
 
     const cargarDatos = (sum) => {
         const newIndex = index + sum;

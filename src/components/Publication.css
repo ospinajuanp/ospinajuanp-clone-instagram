@@ -33,7 +33,9 @@
     display: flex;
     flex-direction: row;
 }
-.Publication__header-text-name div:nth-child(1){
+.Publication__header-text-name-a{
+    width: min-content;
+    display: block;
     margin-right: 8px;
 }
 .Publication__header-menu{

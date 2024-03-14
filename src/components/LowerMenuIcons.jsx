@@ -11,14 +11,12 @@ function LowerMenuIcons() {
     return (
         <div className="LowerMenuIcons">
             <ul>
-                <div className="LowerMenuIcons__logo">
+                <div className="LowerMenuIcons__navigator">
                     <li className="LowerMenuIcons__logoInsta">
                         <a href="/" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                     </li>
-                </div>
-                <div className="LowerMenuIcons__navigator">
                     <li>
                         <a href="/" rel="noopener noreferrer">
                             <GoHome />

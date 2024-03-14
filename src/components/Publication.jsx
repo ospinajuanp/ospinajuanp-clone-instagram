@@ -16,8 +16,10 @@ return (
             </a>
             <div className='Publication__header-text'>
                 <div className='Publication__header-text-name'>
-                    <div>
-                        {data.username}
+                    <div className='Publication__header-text-name-a'>
+                        <a href={`/profile/${data.username}`}>
+                            {data.username}
+                        </a>
                     </div>
                     <div>
                         1 d

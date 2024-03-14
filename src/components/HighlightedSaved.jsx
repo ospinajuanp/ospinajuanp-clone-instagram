@@ -13,9 +13,10 @@ function HighlightedSaved({data,story=true}) {
 
     useEffect(() => {
         if (ulRef.current) {
-            const ulWidth = ulRef.current.offsetWidth;
-            const maxIndex = Math.max(0, Math.ceil(ulWidth / 640) );
-            setMaxScrollIndex(maxIndex);
+            const ulWidth = ulRef.current.childElementCount;
+            const elementScrrol = ulWidth-8
+            setMaxScrollIndex(elementScrrol);
+            console.log(elementScrrol)
         }
     }, [data]);
 
@@ -64,7 +65,7 @@ return (
                 )
             }
             {
-                scrollIndex < maxScrollIndex &&   (
+                scrollIndex < maxScrollIndex &&  (
                     <div className='HighlightedSaved__arrow-right' onClick={handleScrollRight}>
                         <IoIosArrowDroprightCircle/>
                     </div>
