@@ -119,11 +119,10 @@ El siguiente es el plan de desarrollo previsto para el proyecto. Por favor, ten 
 
 Recuerda que estos pasos están sujetos a ajustes y modificaciones a medida que avanza el desarrollo del proyecto.
 
-
 ## Contacto
 
 Si tienes alguna pregunta o sugerencia sobre el proyecto, no dudes en ponerte en contacto con nosotros.
 
 ## Licencia
 
-Este proyecto está bajo la Licencia [MIT](LICENSE).
+Este proyecto está bajo la Licencia [MIT](./LICENSE).
